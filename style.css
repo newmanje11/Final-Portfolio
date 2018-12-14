@@ -60,9 +60,9 @@ nav a {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
+    height: 50px;
     bottom: 0;
-    height:50px;
     color:white;
     background-color: #c00000;
     width: 100%;
