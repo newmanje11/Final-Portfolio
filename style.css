@@ -1,0 +1,92 @@
+$nth-nav-item-that-needs-margin-right     : 2;
+$width-of-navbar-brand-or-logo-in-px      : 160px;
+$padding-x-for-navbar-brand-or-logo-in-px : 16px;
+
+@media (min-width: 768px) {
+	
+	.position-md-absolute {
+		position: absolute;
+	}
+	 /* .navbar-nav .nav-item:nth-child(#{$nth-nav-item-that-needs-margin-right}) {
+		margin-right: $width-of-navbar-brand-or-logo-in-px + ($padding-x-for-navbar-brand-or-logo-in-px * 2);
+	} */
+} 
+
+body {
+    background-color:rgb(236, 236, 236);
+    margin: 0;
+}
+
+header {
+    height: 91px;
+    display: block;
+}
+nav {
+    background-color: #c00000;
+}
+nav .navbar-toggler{
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+}
+.myName {
+  
+    margin: 0 auto;
+    text-align:center;
+    color:  #c00000;
+    
+
+}
+.horizontal {
+    margin-top: 23px;
+    height: 5px;
+    background-color: black;
+    width: 100%;
+
+}
+.centered-text {
+    text-align: center;
+}
+
+.info {
+    padding: 20px 30px;
+    margin-top: 50px;
+    border: 2px dotted #c00000;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height:50px;
+    color:white;
+    background-color: #c00000;
+    width: 100%;
+    text-align: center;
+  }
+
+  .skills {
+   margin-top: 30px;
+}
+
+  .skills h3 {
+      text-align: center;
+      color: #c00000;
+  }
+
+  .skills ul {
+    margin-left: 45px;
+ }
+ /* .portfolio {
+     height: 150px
+ } */
+
+ .portfolio img {
+     margin-top: 25px;
+    height: 250px;
+    width: 100%;
+
+
+ }
